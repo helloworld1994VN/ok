@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: stealth-cookie-fb
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn main:app
